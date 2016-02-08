@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dot-net-5-service", "src\dot-net-5-service\dot-net-5-service.xproj", "{A29E367C-9C12-4B0A-86DF-4E63148826C6}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dot-net-5-topshelf", "src\dot-net-5-topshelf\dot-net-5-topshelf.xproj", "{D86A2B18-8A53-4FC9-B34B-4F44657BE539}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{A29E367C-9C12-4B0A-86DF-4E63148826C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A29E367C-9C12-4B0A-86DF-4E63148826C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A29E367C-9C12-4B0A-86DF-4E63148826C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86A2B18-8A53-4FC9-B34B-4F44657BE539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86A2B18-8A53-4FC9-B34B-4F44657BE539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86A2B18-8A53-4FC9-B34B-4F44657BE539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86A2B18-8A53-4FC9-B34B-4F44657BE539}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A29E367C-9C12-4B0A-86DF-4E63148826C6} = {2D6152AC-8BCF-4835-B64D-11E9A794005E}
+		{D86A2B18-8A53-4FC9-B34B-4F44657BE539} = {2D6152AC-8BCF-4835-B64D-11E9A794005E}
 	EndGlobalSection
 EndGlobal
