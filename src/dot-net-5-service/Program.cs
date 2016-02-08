@@ -4,7 +4,7 @@ using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Hosting.Internal;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Configuration.Memory;
+using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.DependencyInjection;
 
 
@@ -30,7 +30,7 @@ namespace dot_net_5_service
 
         protected override void OnStart(string[] args)
         {
-            var configSource = new MemoryConfigurationProvider {{"server.urls", "http://localhost:5000"}};
+            var configSource = new JsonConfigurationProvider("config.json");
 
             var config = new ConfigurationBuilder()
                 .Add(configSource)
