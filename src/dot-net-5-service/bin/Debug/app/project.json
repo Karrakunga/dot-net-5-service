@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "dot-net-5-service": "1.0.0"
+  },
+  "commands": {
+    "run": "dot-net-5-service"
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.ServiceProcess": "4.0.0.0"
+      }
+    }
+  },
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ],
+  "entryPoint": "dot-net-5-service",
+  "loadable": false
+}

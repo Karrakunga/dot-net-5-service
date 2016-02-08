@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D6152AC-8BCF-4835-B64D-11E9A794005E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F53EE18-34D5-447D-A427-4065763532F0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dot-net-5-service", "src\dot-net-5-service\dot-net-5-service.xproj", "{A29E367C-9C12-4B0A-86DF-4E63148826C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A29E367C-9C12-4B0A-86DF-4E63148826C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29E367C-9C12-4B0A-86DF-4E63148826C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29E367C-9C12-4B0A-86DF-4E63148826C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29E367C-9C12-4B0A-86DF-4E63148826C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A29E367C-9C12-4B0A-86DF-4E63148826C6} = {2D6152AC-8BCF-4835-B64D-11E9A794005E}
+	EndGlobalSection
+EndGlobal
