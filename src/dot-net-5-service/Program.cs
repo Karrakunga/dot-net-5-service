@@ -3,9 +3,6 @@ using System.ServiceProcess;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Hosting.Internal;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Configuration.Json;
-using Microsoft.Extensions.Configuration.Memory;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.PlatformAbstractions;
 
@@ -41,13 +38,6 @@ namespace dot_net_5_service
 
         protected override void OnStart(string[] args)
         {
-            //var configSource = new JsonConfigurationProvider("config.json");
-            //var configSource = new MemoryConfigurationProvider{ {"server.urls", "http://localhost:5000"} };
-
-            //var config = new ConfigurationBuilder()
-            //    .Add(configSource)
-            //    .Build();
-
             var builder = new WebHostBuilder(ConfigHandler.Configuration);
             builder.UseServer("Microsoft.AspNet.Server.Kestrel");
             builder.UseServices(services => services.AddMvc());
